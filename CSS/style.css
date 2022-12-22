@@ -1,0 +1,148 @@
+body
+{
+    font-family: 'raleway', sans-serif;
+    max-width: 1400px;
+    margin:auto;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px 50px 50px;
+    padding-right: 25px;
+}
+
+#logo
+{
+    display: flex;
+    align-items: center;
+}
+
+
+#logo img
+{
+    width: 61px;
+    height: 19px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li
+{
+    margin-right: 25px;
+    list-style-type: none;
+}
+
+nav a
+{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+}
+
+h1
+{
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+h2
+{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+
+#recherche
+{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+#encadreiconemap
+{
+    background-color: #F2F2F2;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#search
+{
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 700;
+    padding: 13px 0px 13px 10px;
+    border: 1px solid #F2F2F2;
+}
+
+#bouton
+{
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 700;
+    margin-left: 0px;
+    background-color: #0065FC;
+    color: white;
+    padding: 14px 16px 14px 16px;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    position:relative;
+    left: -10px;
+}
+
+#loupe
+{
+    margin-left: 0px;
+    background-color: #0065FC;
+    padding: 18px 16px 16px 16px;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    position:relative;
+    left: -10px;
+    color: white;
+}
+
+@media screen and (min-width: 768px) 
+{
+    #loupe
+    {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 767px) 
+{
+    #bouton
+    {
+        display: none;
+    }
+
+    nav a:hover
+    {
+    border-top: 0px solid #0065FC;
+    border-bottom: 2px solid #0065FC;
+    }
+}
