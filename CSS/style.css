@@ -129,7 +129,7 @@ h2
 {
     display: flex;
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 20px;
     align-items: center;
 }
 
@@ -154,6 +154,11 @@ h4
     border-radius: 50px;
 }
 
+#prix:hover, #familial:hover, #romantique:hover, #animaux:hover
+{
+    background-color: #DEEBFF;
+}
+
 #prixetfamilial, #romantiqueetanimaux
 {
     display: flex;
@@ -170,7 +175,7 @@ h4
 {
     display: flex;
     align-items: center;
-    margin: 0 0 0 50px;
+    margin: 10px 0 0 50px;
 }
 
 #info i
@@ -190,9 +195,16 @@ h4
 #hebergementsetlespluspop
 {
     display: flex;
+    justify-content: space-between;
 }
 
-#hebergementsetlespluspop h1
+#hebergementsetlespluspop a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+#hebergements h1
 {
     margin: 40px 0 20px 0;
 }
@@ -202,12 +214,13 @@ h4
     border-radius: 20px;
     background-color: #FFFFFF;
     height: 199px;
-    width: 246px;
+    min-width: 190px;
+    box-shadow: 0 0 10px #D9D9D9;
 }
 
 .sixhotels h5
 {
-    margin: 0px 0 0 16px; 
+    margin: 0 0 0 16px; 
     font-size: 16px;
     font-weight: 700;
 }
@@ -221,25 +234,31 @@ h4
 
 .sixhotels .stars
 {
-    margin: 0px 0 0 16px;
+    margin: 0 0 0 16px;
 }
 
 #hebergements img
 {
-    height: 124px;
+    height: 114px;
     border-radius: 20px 20px 0 0;
-    width: 236px;
+    width: 95%;
     object-fit: cover;
     border: 5px solid #FFFFFF;
+    margin: 0 30px 0 0;
+}
+
+.description6
+{
+    height: 40%;
 }
 
 #hebergements
 {
     background-color: #F2F2F2;
-    width: 880px;
+    width: 70%;
     height: 626px;
-    margin: 40px 20px 0 50px;
-    padding: 5px 40px 5px 40px;
+    margin: 40px 20px 0 60px;
+    padding: 0 10px 0 40px;
     border-radius: 20px;
 }
 
@@ -247,18 +266,18 @@ h4
 {
     display: flex;
     justify-content: space-between;
-    padding: 0 0 30px 0;
-}
-
-#lespluspopulaires img
-{
-    height: 144px;
+    padding: 0 10px 30px 0;
+    gap: 50px;
 }
 
 #lespluspopulaires
 {
-    width: 420px;
+    width: 30%;
     background-color: #F2F2F2;
+    height: 626px;
+    margin: 40px 30px 0 0;
+    padding: 0 30px 20px 30px;
+    border-radius: 20px;
 }
 
 .stars
@@ -276,6 +295,107 @@ h4
 {
     color:#F2F2F2;
 }
+
+#titreeticone
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0 20px 0;
+}
+
+#lespluspopulaires h1
+{
+    margin: 0 0 0 0;
+}
+
+#titreeticone i
+{
+    color: #0065FC;
+}
+
+.troishotels
+{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 5px 0 27px 0;
+    width: 100%;
+    box-shadow: 0 0 10px #D9D9D9;
+}
+
+.troishotels img
+{
+    height: 134px;
+    width: 40%;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+    border: 5px solid #FFFFFF;
+}
+
+#les3hotels
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.troishotels h5
+{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 18px 0 0 0;
+}
+
+.troishotels p
+{
+    margin: 7px 0 36px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hotelbleuetblanc img
+{
+    height: 134px;
+    width: 40%;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+    border: 5px solid #FFFFFF;
+    min-width: 118px;
+}
+
+.hotelbleuetblanc
+{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 5px 0 27px 0;
+    width: 100%;
+}
+
+.hotelbleuetblanc h5
+{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 18px 0 0 0;
+}
+
+.hotelbleuetblanc p
+{
+    margin: 7px 0 56px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.description3
+{
+    margin-left: 15px;
+    width: 50%;
+    min-width: 150px;
+}
+
+
+
 @media screen and (min-width: 768px) 
 {
     #loupe
