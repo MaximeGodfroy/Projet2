@@ -92,7 +92,7 @@ h2
 #search
 {
     font-size: 18px;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     padding: 13px 0px 13px 10px;
     border: 1px solid #F2F2F2;
@@ -101,7 +101,7 @@ h2
 #bouton
 {
     font-size: 18px;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     margin-left: 0px;
     background-color: #0065FC;
@@ -125,6 +125,157 @@ h2
     color: white;
 }
 
+#filtres
+{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+h3
+{
+    margin: 10px;
+}
+
+h4
+{
+    margin: 10px 10px 10px 10px;
+}
+
+#prix, #familial, #romantique, #animaux
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px 0px 20px;
+    padding: 0px 10px 0px 20px;
+    border: 2px solid #D9D9D9;
+    border-radius: 50px;
+}
+
+#prixetfamilial, #romantiqueetanimaux
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#filtres i
+{
+    color:#0065FC;
+}
+
+#info
+{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 50px;
+}
+
+#info i
+{
+    color:#0065FC;
+    padding: 10px 8px 10px 8px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50px;
+
+}
+
+#info h2
+{
+    margin-left: 10px;
+}
+
+#hebergementsetlespluspop
+{
+    display: flex;
+}
+
+#hebergementsetlespluspop h1
+{
+    margin: 40px 0 20px 0;
+}
+
+.sixhotels
+{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    height: 199px;
+    width: 246px;
+}
+
+.sixhotels h5
+{
+    margin: 0px 0 0 16px; 
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sixhotels p
+{
+    margin: 5px 0 0 16px; 
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sixhotels .stars
+{
+    margin: 0px 0 0 16px;
+}
+
+#hebergements img
+{
+    height: 124px;
+    border-radius: 20px 20px 0 0;
+    width: 236px;
+    object-fit: cover;
+    border: 5px solid #FFFFFF;
+}
+
+#hebergements
+{
+    background-color: #F2F2F2;
+    width: 880px;
+    height: 626px;
+    margin: 40px 20px 0 50px;
+    padding: 5px 40px 5px 40px;
+    border-radius: 20px;
+}
+
+#troispremiershebergements, #troisderniershebergements
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 30px 0;
+}
+
+#lespluspopulaires img
+{
+    height: 144px;
+}
+
+#lespluspopulaires
+{
+    width: 420px;
+    background-color: #F2F2F2;
+}
+
+.stars
+{
+    display: flex;
+    align-items: center;
+}
+
+.stars i
+{
+    color:#0065FC;
+}
+
+.laststar i
+{
+    color:#F2F2F2;
+}
 @media screen and (min-width: 768px) 
 {
     #loupe
@@ -133,7 +284,7 @@ h2
     }
 }
 
-@media screen and (max-width: 767px) 
+@media screen and (min-width: 375px) and (max-width: 767px) 
 {
     #bouton
     {
