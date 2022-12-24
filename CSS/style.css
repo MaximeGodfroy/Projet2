@@ -213,14 +213,14 @@ h4
     box-shadow: 0 0 10px #D9D9D9;
 }
 
-.sixhotels h5
+h5
 {
     font-size: 16px;
     font-weight: 700;
     margin: 0 0 0 0;
 }
 
-.sixhotels p
+p
 {
     font-size: 14px;
     font-weight: 400;
@@ -241,7 +241,7 @@ h4
     height: 124px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
-    aspect-ratio: 1.9/1;
+    aspect-ratio: 1.7/1;
     border: 5px solid #FFFFFF;
 }
 
@@ -312,20 +312,6 @@ h4
     object-fit: cover;
 }
 
-#les3hotels h5
-{
-    font-size: 16px;
-    font-weight: 700;
-    margin: 0 0 0 0;
-}
-
-#les3hotels p
-{
-    font-size: 14px;
-    font-weight: 400;
-    margin: 0 0 0 0;
-}
-
 .description
 {
     display: flex;
@@ -333,6 +319,7 @@ h4
     justify-content: space-between;
     padding: 10px 10px 10px 15px;
     height: 90%;
+    width: 50%;
 }
 
 #lespluspopulaires a
@@ -378,6 +365,42 @@ h4
 {
     color:#F2F2F2;
 }
+
+#titreActivites
+{
+    margin: 20px 0 20px 50px;
+}
+
+#les4activites
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 50px;
+}
+
+.quatreactivites
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px 40px 0;
+    padding: 0 0 0 0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #D9D9D9;
+}
+
+#les4activites img
+{
+    height: 389px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    aspect-ratio: 0.7/1;
+}
+
+#les4activites h5
+{
+    margin: 20px 0 20px 20px;
+}
+
 @media all and (min-width: 992px) 
 {
     #loupe
