@@ -438,6 +438,11 @@ footer h5 {
         aspect-ratio: 0.8/1;
     }
 
+    #les4activites h2 {
+        margin: 20px 0 20px 10px;
+        height: 38px;
+    }
+
     .quatreactivites {
         width: 170px;
     }
