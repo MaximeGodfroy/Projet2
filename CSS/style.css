@@ -130,10 +130,7 @@ h4 {
     font-weight: 700;
 }
 
-#prix,
-#familial,
-#romantique,
-#animaux {
+.filtre {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -143,8 +140,7 @@ h4 {
     border-radius: 50px;
 }
 
-#prixetfamilial,
-#romantiqueetanimaux {
+.deuxfiltres {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -152,10 +148,7 @@ h4 {
 
 /* Fond en bleu au survol des filtres*/
 
-#prix:hover,
-#familial:hover,
-#romantique:hover,
-#animaux:hover {
+.filtre:hover {
     background-color: #DEEBFF;
 }
 
@@ -503,17 +496,13 @@ footer h5 {
         font-size: 11px;
     }
 
-    #prix,
-    #familial,
-    #romantique,
-    #animaux {
+    .filtre {
         justify-content: left;
         margin: 20px 10px 0 0;
         width: 100%;
     }
 
-    #prixetfamilial,
-    #romantiqueetanimaux {
+    .deuxfiltres {
         justify-content: space-between;
         width: 95%;
     }
