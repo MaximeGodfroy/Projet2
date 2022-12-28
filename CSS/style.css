@@ -1,44 +1,37 @@
-body
-{
+body {
     font-family: "Raleway", sans-serif;
     max-width: 1400px;
-    margin:auto;
+    margin: auto;
 }
 
-header
-{
+header {
     display: flex;
     justify-content: space-between;
     margin: 50px 40px 50px 50px;
 }
 
-#logo
-{
+#logo {
     display: flex;
     align-items: center;
 }
 
-#logo img
-{
+#logo img {
     width: 61px;
     height: 19px;
 }
 
-nav ul
-{
+nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
 }
 
-nav li
-{
+nav li {
     margin-right: 25px;
     list-style-type: none;
 }
 
-nav a
-{
+nav a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
@@ -47,28 +40,24 @@ nav a
     padding-bottom: 50px;
 }
 
-nav a:hover
-{
+nav a:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
 }
 
-h1
-{
+h1 {
     font-size: 22px;
     font-weight: 700;
     margin-left: 50px;
 }
 
-h5
-{
+h5 {
     font-size: 16px;
     font-weight: 400;
     margin-left: 50px;
 }
 
-#recherche
-{
+#recherche {
     display: flex;
     align-items: center;
     padding: 10px 10px 10px 0;
@@ -76,8 +65,7 @@ h5
     min-width: 370px;
 }
 
-#encadreiconemap
-{
+#encadreiconemap {
     background-color: #F2F2F2;
     width: 50px;
     height: 50px;
@@ -89,8 +77,7 @@ h5
     padding-left: 5px;
 }
 
-#search
-{
+#search {
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -98,8 +85,7 @@ h5
     border: 1px solid #F2F2F2;
 }
 
-#bouton
-{
+#bouton {
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -109,47 +95,45 @@ h5
     padding: 14px 16px 14px 16px;
     border-radius: 0px 15px 15px 0px;
     border: none;
-    position:relative;
+    position: relative;
     left: -4px;
 }
 
-#loupe
-{
+#loupe {
     margin-left: 0px;
     background-color: #0065FC;
     padding: 18px 16px 16px 16px;
     border-radius: 0px 15px 15px 0px;
     border: none;
-    position:relative;
+    position: relative;
     left: -10px;
     color: white;
 }
 
-#filtres
-{
+#filtres {
     display: flex;
     margin: 0 0 30px 50px;
     align-items: center;
 }
 
-h3
-{
+h3 {
     margin: 10px 10px 10px 10px;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
 }
 
-h4
-{
+h4 {
     margin: 10px 10px 10px 10px;
     font-size: 17px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
 }
 
-#prix, #familial, #romantique, #animaux
-{
+#prix,
+#familial,
+#romantique,
+#animaux {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -159,65 +143,60 @@ h4
     border-radius: 50px;
 }
 
-#prixetfamilial, #romantiqueetanimaux
-{
+#prixetfamilial,
+#romantiqueetanimaux {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#prix:hover, #familial:hover, #romantique:hover, #animaux:hover
-{
+#prix:hover,
+#familial:hover,
+#romantique:hover,
+#animaux:hover {
     background-color: #DEEBFF;
 }
 
-#filtres i
-{
-    color:#0065FC;
+#filtres i {
+    color: #0065FC;
 }
 
-#info
-{
+#info {
     display: flex;
     align-items: center;
     margin: 0 0 0 50px;
 }
 
-#info i
-{
-    color:#0065FC;
+#info i {
+    color: #0065FC;
     padding: 10px 8px 10px 8px;
     border: 1px solid #D9D9D9;
     border-radius: 50px;
 
 }
 
-#info h5
-{
+#info h5 {
     margin-left: 10px;
 }
 
-#hebergementsetlespluspop
-{
+#hebergementsetlespluspop {
     display: flex;
     justify-content: space-between;
     margin: 40px 40px 40px 50px;
 }
 
-#hebergementsetlespluspop h1
-{
+#hebergementsetlespluspop h1 {
     margin: 0 0 20px 0;
 }
 
-#troispremiershebergements, #troisderniershebergements
-{
+#troispremiershebergements,
+#troisderniershebergements {
     display: flex;
     justify-content: space-between;
     margin: 0 0 30px 0;
 }
 
-#hebergements
-{
+#hebergements {
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
@@ -227,14 +206,12 @@ h4
     border-radius: 20px;
 }
 
-#hebergements a
-{
+#hebergements a {
     text-decoration: none;
     color: #000000;
 }
 
-#hebergements img
-{
+#hebergements img {
     height: 124px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
@@ -242,8 +219,7 @@ h4
     border: 5px solid #FFFFFF;
 }
 
-.sixhotels
-{
+.sixhotels {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -253,22 +229,19 @@ h4
     box-shadow: 0 0 10px #D9D9D9;
 }
 
-h2
-{
+h2 {
     font-size: 16px;
     font-weight: 700;
     margin: 0 0 0 0;
 }
 
-p
-{
+p {
     font-size: 14px;
     font-weight: 400;
     margin: 0 0 0 0;
 }
 
-.description6
-{
+.description6 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -276,8 +249,7 @@ p
     height: 40%;
 }
 
-#lespluspopulaires
-{
+#lespluspopulaires {
     width: 30%;
     min-width: 300px;
     background-color: #F2F2F2;
@@ -285,33 +257,28 @@ p
     border-radius: 20px;
 }
 
-#titreeticone
-{
+#titreeticone {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 0 25px 40px;
 }
 
-#titreeticone h1
-{
+#titreeticone h1 {
     margin: 0 0 0 0;
 }
 
-#titreeticone i
-{
-    color:#0065FC;
+#titreeticone i {
+    color: #0065FC;
 }
 
-#les3hotels
-{
+#les3hotels {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-#les3hotels img
-{
+#les3hotels img {
     height: 134px;
     width: 40%;
     border-radius: 20px 0 0 20px;
@@ -319,8 +286,7 @@ p
     object-fit: cover;
 }
 
-.description
-{
+.description {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -329,14 +295,12 @@ p
     width: 50%;
 }
 
-#lespluspopulaires a
-{
+#lespluspopulaires a {
     text-decoration: none;
     color: #000000;
 }
 
-.troishotels
-{
+.troishotels {
     display: flex;
     align-items: center;
     border-radius: 20px;
@@ -346,8 +310,7 @@ p
     margin: 0 0 30px 30px;
 }
 
-.hotelbleuetblanc
-{
+.hotelbleuetblanc {
     display: flex;
     align-items: center;
     border-radius: 20px;
@@ -357,284 +320,242 @@ p
     margin: 0 0 0 30px;
 }
 
-.stars
-{
+.stars {
     display: flex;
     align-items: center;
 }
 
-.stars i
-{
-    color:#0065FC;
+.stars i {
+    color: #0065FC;
 }
 
-.laststar i
-{
-    color:#F2F2F2;
+.laststar i {
+    color: #F2F2F2;
 }
 
-#titreActivites
-{
+#titreActivites {
     margin: 20px 0 20px 50px;
 }
 
-#les4activites
-{
+#les4activites {
     display: flex;
     justify-content: space-between;
     margin: 40px 40px 40px 50px;
 }
 
-.quatreactivites
-{
+.quatreactivites {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
     box-shadow: 0 0 10px #D9D9D9;
 }
 
-#les4activites img
-{
+#les4activites img {
     height: 389px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
     aspect-ratio: 0.65/1;
 }
 
-#les4activites h2
-{
+#les4activites h2 {
     margin: 20px 0 20px 20px;
 }
 
-#les4activites a
-{
+#les4activites a {
     text-decoration: none;
     color: #000000;
 }
 
-footer
-{
+footer {
     display: flex;
     background-color: #F2F2F2;
     margin: 0 40px 0 50px;
     padding: 45px 0 20px 70px;
 }
 
-footer h3
-{
+footer h3 {
     margin: 0 0 20px 0;
 }
 
-footer h5
-{
+footer h5 {
     margin: 0 0 12px 0;
 }
 
-.troisgroupes
-{
+.troisgroupes {
     width: 35%;
 }
 
-@media all and (min-width: 992px) 
-{
-    #loupe
-    {
-        display:none;
+@media all and (min-width: 992px) {
+    #loupe {
+        display: none;
     }
 }
 
-@media all and (min-width: 768px) and (max-width: 991px)
-{
-    #loupe
-    {
-        display:none;
+@media all and (min-width: 768px) and (max-width: 991px) {
+    #loupe {
+        display: none;
     }
 
-    #hebergementsetlespluspop
-    {
+    #hebergementsetlespluspop {
         flex-direction: column;
     }
 
-    #hebergements
-    {
+    #hebergements {
         width: auto;
     }
 
-    #lespluspopulaires
-    {
+    #lespluspopulaires {
         margin: 40px 0 40px 0;
         width: auto;
     }
 
-    #les3hotels
-    {
+    #les3hotels {
         flex-direction: row;
         margin: 0 0 40px 30px;
     }
 
-    #lespluspopulaires img 
-    {
+    #lespluspopulaires img {
         aspect-ratio: 0.6/1;
     }
 
-    .troishotels
-    {
+    .troishotels {
         margin: 0 0 0 10px;
         width: 205px;
     }
 
-    .hotelbleuetblanc
-    {
+    .hotelbleuetblanc {
         margin: 0 0 0 10px;
         width: 205px;
     }
 
-    #les4activites img
-    {
-    height: 211px;
-    aspect-ratio: 0.8/1;
+    #les4activites img {
+        height: 211px;
+        aspect-ratio: 0.8/1;
     }
 
-    .quatreactivites
-    {
+    .quatreactivites {
         width: 170px;
     }
 
 }
 
-@media all and (max-width: 767px) 
-{
-    #bouton
-    {
+@media all and (max-width: 767px) {
+    #bouton {
         display: none;
     }
 
-    nav a:hover
-    {
-    border-top: 0px solid #0065FC;
-    border-bottom: 2px solid #0065FC;
+    nav a:hover {
+        border-top: 0px solid #0065FC;
+        border-bottom: 2px solid #0065FC;
     }
 
-    #logo
-    {
-        margin:auto;
+    #logo {
+        margin: auto;
     }
 
-    header
-    {
+    header {
         flex-direction: column;
     }
 
-    nav 
-    {
+    nav {
         margin-top: 20px;
     }
 
-    #filtres
-    {
+    #filtres {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    #filtres h3 
-    {
+    #filtres h3 {
         margin: 20px 0 0 0;
     }
 
-    #prix, #familial, #romantique, #animaux
-    {
+    #prix,
+    #familial,
+    #romantique,
+    #animaux {
         justify-content: left;
         margin: 20px 10px 0 0;
         width: 100%;
     }
 
-    #prixetfamilial, #romantiqueetanimaux
-    {
+    #prixetfamilial,
+    #romantiqueetanimaux {
         justify-content: space-between;
         width: 95%;
     }
 
-    #hebergementsetlespluspop
-    {
+    #hebergementsetlespluspop {
         flex-direction: column-reverse;
+        margin-left: 0;
+        margin-right: 0;
     }
 
-    #hebergements
-    {
-        width: 100%;
+    #hebergements {
+        width: 90%;
         min-width: 0;
         margin: 0 0 0 0;
         height: auto;
-        padding: 20px 0 0 0;
+        padding: 20px 40px 0 50px;
         border-radius: 0px;
         background-color: #FFFFFF;
     }
 
-    #hebergements h3
-    {
+    #hebergements h3 {
         display: none;
     }
 
-    #lespluspopulaires
-    {
+    #lespluspopulaires {
         margin: 0 0 0 0;
-        padding: 20px 0 0 0;
-        width: 100%;
+        padding: 20px 40px 20px 50px;
+        width: 90%;
         border-radius: 0px;
     }
 
-    #titreeticone
-    {
+    #titreeticone {
         margin: 20px 10px 20px 0;
     }
 
-    .troishotels
-    {
+    .troishotels {
         margin: 10px 10px 10px 10px;
     }
 
-    .hotelbleuetblanc
-    {
+    .hotelbleuetblanc {
         margin: 10px 10px 10px 10px;
     }
-    
-    #troispremiershebergements, #troisderniershebergements
-    {
+
+    #troispremiershebergements,
+    #troisderniershebergements {
         flex-direction: column;
         width: 100%;
         margin: 0 0 0 0;
     }
 
-    #troisderniershebergements
-    {
+    #troisderniershebergements {
         margin: 0 0 40px 0;
     }
 
-    .sixhotels
-    {
+    .sixhotels {
         width: 100%;
         padding: 0 0 10px 0;
         margin: 0 0 10px 0;
     }
 
-    #les4activites
-    {
+    #les4activites {
         flex-direction: column;
     }
 
-    #les4activites img 
-    {
+    #les4activites img {
         height: 134px;
     }
 
-    footer
-    {
-    flex-direction: column;
-    padding: 45px 0 0 0;
+    footer {
+        flex-direction: column;
+        padding: 45px 0 0 50px;
+        margin: 0 0 0 0;
     }
 
-    .troisgroupes
-    {
-    margin-bottom: 20px;
+    .troisgroupes {
+        margin-bottom: 20px;
     }
 }
