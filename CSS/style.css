@@ -186,8 +186,7 @@ h4 {
     margin: 0 0 20px 0;
 }
 
-#troispremiershebergements,
-#troisderniershebergements {
+.troishebergements {
     display: flex;
     justify-content: space-between;
     margin: 0 0 30px 0;
@@ -247,7 +246,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 0 10px 15px;
+    padding: 0 0 12px 15px;
     height: 40%;
 }
 
@@ -294,7 +293,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     padding: 10px 10px 10px 5px;
-    height: 90%;
+    height: 80%;
     width: 50%;
 }
 
@@ -323,8 +322,8 @@ p {
     color: #0065FC;
 }
 
-.laststar i {
-    color: #F2F2F2;
+.stars :last-child {
+    color:#F2F2F2;
 }
 
 #titreActivites {
@@ -542,8 +541,7 @@ footer h5 {
         margin: 10px 10px 10px 10px;
     }
 
-    #troispremiershebergements,
-    #troisderniershebergements {
+    .troishebergements {
         flex-direction: column;
         width: 100%;
         margin: 0 0 0 0;
