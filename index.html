@@ -2,6 +2,8 @@
 <html lang="fr">
 
 <head>
+    <!-- Chargement des caractères, implémentation meta viewport, utilisation de la police Raleway,
+    utilisation des icônes fontawesome -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Agence de voyages Booki</title>
@@ -14,6 +16,7 @@
 
 <body>
     <header>
+        <!--intégration du logo et de la barre de navigation-->
         <div id="logo">
             <img src="images/logo/Booki.png" alt="logo Booki">
         </div>
@@ -32,6 +35,8 @@
 
         <h5>En plein centre-ville ou en pleine nature</h5>
 
+        <!--Barre de recherche avec icône carte à gauche et bouton rechercher à droite ou loupe en mobile-->
+
         <div id="recherche">
             <div id="encadreiconemap">
                 <i class="fa-solid fa-location-dot" id="iconemap"></i>
@@ -42,6 +47,8 @@
                 <button id="loupe"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
             </form>
         </div>
+
+        <!--Barre de filtres-->
 
         <div id="filtres">
             <h3>Filtres</h3>
@@ -72,11 +79,16 @@
             <h5>Plus de 500 logements sont disponibles dans cette ville</h5>
         </div>
 
+        <!--Conteneur flex avec "hébergements" et "les plus populaires" pour pouvoir inverser l'ordre en 
+        version mobile-->
+
         <section id="hebergementsetlespluspop">
             <div id="hebergements">
                 <h1>Hébergements à Marseille</h1>
+                <!--2 conteneurs de 3 hébergements pour pouvoir les passer d'horizontal à vertical-->
                 <div id="troispremiershebergements">
                     <a href="#">
+                        <!--Création d'une classe "sixhotels" pour unifier les 6 hébergements-->
                         <div class="sixhotels">
                             <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                                 alt="photo auberge de la canebière">
@@ -195,11 +207,16 @@
                 </div>
                 <h3>Afficher plus</h3>
             </div>
+
+            <!--Conteneur "Les plus populaires" contenant deux divisions "titreeticone" et "les3hotels"-->
+
             <div id="lespluspopulaires">
+                <!--Conteneur "titreeticone" contenant le titre et l'icône-->
                 <div id="titreeticone">
                     <h1>Les plus populaires</h1>
                     <i class="fa-solid fa-chart-line"></i>
                 </div>
+                <!--Conteneur "les3hotels" contenant trois conteneurs avec la classe "troishotels"-->
                 <div id="les3hotels">
                     <a href="#">
                         <div class="troishotels">
@@ -240,7 +257,7 @@
                         </div>
                     </a>
                     <a href="#">
-                        <div class="hotelbleuetblanc">
+                        <div class="troishotels">
                             <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                                 alt="photo hotel bleu et blanc">
                             <div class="description">
@@ -263,6 +280,8 @@
         </section>
 
         <h1 id="titreActivites">Activités à Marseille</h1>
+
+        <!--Conteneur "les4activites" contenant 4 conteneurs avec la classe "quatreactivites"-->
 
         <div id="les4activites">
             <a href="#">
@@ -293,6 +312,9 @@
             </a>
         </div>
     </main>
+
+    <!--Footer contenant 3 conteneurs avec la classe "troisgroupes"-->
+
     <footer>
         <div class="troisgroupes">
             <h3>À propos</h3>
