@@ -574,6 +574,10 @@ footer h5 {
         height: 134px;
     }
 
+    .quatreactivites {
+        margin-bottom: 20px;
+    }
+
     footer {
         flex-direction: column;
         padding: 45px 40px 0 20px;
