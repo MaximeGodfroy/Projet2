@@ -202,6 +202,7 @@ h4 {
     background-color: #F2F2F2;
     width: 60%;
     min-width: 600px;
+    margin-right: 40px;
     padding: 40px 40px 40px 40px;
     border-radius: 20px;
 }
@@ -402,6 +403,7 @@ footer h5 {
 
     #hebergements {
         width: auto;
+        margin-right: 0;
     }
 
     #lespluspopulaires {
@@ -551,8 +553,9 @@ footer h5 {
 
     footer {
         flex-direction: column;
-        padding: 45px 0 0 50px;
+        padding: 45px 40px 0 50px;
         margin: 0 0 0 0;
+        width:90%;
     }
 
     .troisgroupes {
